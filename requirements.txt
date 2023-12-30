@@ -1,0 +1,5 @@
+jwcrypto==1.0
+pycryptodome==3.14.1
+PyJWT==2.3.0
+requests==2.22.0
+termcolor==1.1.0
