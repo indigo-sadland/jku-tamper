@@ -13,7 +13,7 @@ def parse_token(token_string):
         and downloads jwks from the url
     """
 
-    print(colored('----{ DECODED TOKEN }----\n', attrs=["bold"]))
+    print(colored('\n----{   DECODED  TOKEN   }----\n', attrs=["bold"]))
 
     # Decode token's headers.
     token_headers = jwt.get_unverified_header(token_string)
@@ -33,7 +33,7 @@ def parse_token(token_string):
         print(p)
 
     if jku_detected:
-        print(colored('----{ JKU  DETECTED }----\n', attrs=["bold"]))
+        print(colored('----{    JKU DETECTED    }----\n', attrs=["bold"]))
         print(colored("[+] Starting Download... ", "green"))
         print(colored("i'll store it in memory\n", "yellow"))
 

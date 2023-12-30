@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "use": "sig",
+      "kid": "hackthebox",
+      "alg": "RS256",
+      "n": "u5ueTlglTPom877oCRg0uGr7CQt2JR9SRIutsyI4N_nZfs6iweqH-DIblrS8Hfzv4naFCZNO0bdpr6U-IBXPYJNuLhH_i7BC-QrO8ui3uXZxGWMKv2r9vUvjSBt1rkVpgY9FzOsNYehWTcn1gxBIk3DRYbbxNIIthOrTUOfs49Pl8Rg2GdWGxA35GnLr2bgsLr-Pv93Qkxk4GhltMdbd8PprpnoSIHAaJqC16YDOwCEpBoDEJxKJi6ZfNSnYsYYhSw8tp7QxTD4i-adJGm02jLsJC_Nmu_OWVoVUtEqiAQpNGlZ53WQubfrn9_nHd0BiO1poRZFvee75pczfaYT71Q",
+      "e": "AQAB"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ from termcolor import colored
 
 
 def serve(lh, lp):
-    print(colored('-----{ HTTP SERVER }-----\n', attrs=["bold"]))
+    print(colored('----{    HTTP  SERVER    }----\n', attrs=["bold"]))
 
     handler = http.server.SimpleHTTPRequestHandler
 

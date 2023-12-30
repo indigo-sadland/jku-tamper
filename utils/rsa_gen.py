@@ -11,7 +11,7 @@ def gen_key():
                 buf_key_str: bytes buffer with PEM key.
     """
 
-    print(colored('-------{ PEM KEY }-------\n', attrs=["bold"]))
+    print(colored('----{      PEM  KEY      }----\n', attrs=["bold"]))
     key = RSA.generate(2048)
     prv_key = key.exportKey("PEM")
 

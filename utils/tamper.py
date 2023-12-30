@@ -15,7 +15,7 @@ def tamper(jwks, parsed_pem):
     new_list = []
     new_dict = {}
 
-    print(colored('\n----{ JWKS TAMPERING }----\n', attrs=["bold"]))
+    print(colored('\n----{   JWKS TAMPERING   }----\n', attrs=["bold"]))
 
     for obj in jwks:
         jwks_tampered[obj] = []
