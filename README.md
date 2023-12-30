@@ -10,5 +10,6 @@
 
 ## Usage Example
 
-`     python3 jku-tamper.py -rurl "http://example.com/redirect/?url=" -lh 10.10.10.10 -lp 8080 -token "eyJhbGz ... x47_zWyA"
-`
+```     
+python3 jku-tamper.py -rurl "http://example.com/redirect/?url=" -lh 10.10.10.10 -lp 8080 -token "eyJhbGz ... x47_zWyA"
+```
