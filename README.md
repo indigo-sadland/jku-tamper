@@ -19,3 +19,4 @@
 ```     
 python3 jku-tamper.py -rurl "http://example.com/redirect/?url=" -lh 10.10.10.10 -lp 8080 -token "eyJhbGz ... x47_zWyA"
 ```
+<img width="792" alt="Screenshot" src="https://user-images.githubusercontent.com/37074372/163669729-c8013752-97c4-417b-9314-0f66b9e93d3b.png">
